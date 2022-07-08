@@ -17,7 +17,7 @@ def imprimir():
     
 but1=Button(win,text="Imprimir", fg="blue", command=imprimir)
 but2=Button(win, text="Salir", fg="red", command = win.quit)
-but1.pack()
+but1.pack() # Posiciona el Botón en Pantalla
 but2.pack()
 win.mainloop()
 
